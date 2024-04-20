@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d425b79006.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="portfolio">
+    <div>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="lo.jpg" alt="Logo" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skill-19">Skills</a></li>
+                        <li><a href="#skills">Certificates</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark fa-lg" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+                </nav>
+                <div class="header-text">
+
+
+                    <H2>Hi,I'm <span> Om </span> <br> Thite from solapur </H2>
+                </div>
+                <div class="om">
+                    <h1>I'm <span class="auto-type" style="color: #f3004d;"></span></h1>
+                </div>
+                <a href="Resume.pdf" download class="btn btn2">Resume <i class="fa-solid fa-download"></i></a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!---------------- about -------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me.jpg" alt="My img">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tital">About<span style="color: #ff004f;">
+                            Me</span></h1>
+                    </h1>
+                    <p>An ambitious and self-motivated webdeveloper with a considerable technical skill who
+                        possesses
+                        self-discipline and ability to work with minimum of super vision.Able to play a key role in
+                        website development to ensure maximum accessibility,user experience and usability.A
+                        quick-learner who can absorb new ideas clearly and effectively.</p>
+                    <div class="tab-tital">
+                        <p class="tab-link active-link" onclick="opentab('Education')">Education</p>
+                        <p class="tab-link active-link" onclick="opentab('Project')">Project</p>
+                    </div>
+                    <div class="tab-countnd active-tab" id="Education">
+                        <ul>
+                            <li><span>Current</span><br>Engineering Form MIT Alandi</li>
+                            <li><span>2022</span><br>Diploma ME Form Shri vithal education & research institute
+                            </li>
+                            <li><span>2019</span><br>SSC Form K.S.B.patil vidyalaya Angar</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="tab-countnd" id="Project">
+                        <ul>
+                            <li>1) Pedal operated washing machine in Diploma </li>
+                            <li>2) Vehicle battery cooling system</li>
+                            <li>3) Smart stick for blind person</li>
+                            <li>4) Responsive website for Online Education</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------Skills--------------------------------- -->
+    <div id="skill-19">
+        <h1 class="sub-tital skill-tital">Technical <span style="color: #ff004f;">
+                Skills</span></h1>
+        <section>
+            <div class=" skill-container swiper">
+                <div class="slide-container">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-box">
+                                <img src="html-1.svg" alt="" />
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">HTML</h3>
+                                    <h4 class="job">⭐⭐⭐⭐⭐</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-box">
+                                <img src="css-3.svg" alt="" />
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">CSS</h3>
+                                    <h4 class="job">⭐⭐⭐⭐⭐</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-box">
+                                <img src="javascript-1.svg" alt="" />
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">JavaScript</h3>
+                                    <h4 class="job">⭐⭐⭐⭐</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-box">
+                                <img src="react-2.svg" alt="" />
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">React js</h3>
+                                    <h4 class="job">⭐⭐⭐r</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-box">
+                                <img src="python-5.svg" alt="" />
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">python</h3>
+                                    <h4 class="job">⭐⭐⭐⭐⭐</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-box">
+                                <img src="api.png" alt="" />
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">API</h3>
+                                    <h4 class="job">⭐⭐⭐⭐⭐</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-box">
+                                <img src="mysql-6.svg" alt="" />
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">MYSQL</h3>
+                                    <h4 class="job">⭐⭐⭐⭐⭐</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-box">
+                                <img src="microsoft-excel-2013.svg" alt="" />
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">Advance excel</h3>
+                                    <h4 class="job">⭐⭐⭐⭐</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-box">
+                                <img src="Autocad.png" alt="" />
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">Autocad</h3>
+                                    <h4 class="job">⭐⭐⭐⭐⭐</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="image-box">
+                                <img src="Catia.png" alt="" />
+                            </div>
+                            <div class="profile-details">
+                                <div class="name-job">
+                                    <h3 class="name">Catia</h3>
+                                    <h4 class="job">⭐⭐⭐⭐⭐</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+    </div>
+    <!-- ------------------Certificates-------------->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-tital">Certificates</h1>
+            <div class="Skills-list">
+                <div class="one_sk">
+
+                    <img src="websites  certificate.jpg" alt=""
+                        style="height: 220px; width: 320px; border-radius: 10px;">
+                    <p>Certificate 1</p>
+                    <h3>Web developer</h3>
+                </div>
+            </div>
+            <div class="Skills-list">
+                <div>
+                    <!-- <i class="fa-solid fa-crop"></i> -->
+                    <img src="catia v5.png" alt="" style="height: 220px; width: 320px;">
+                    <p>Certificate 2</p>
+                    <h3>Catia V5</h3>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+    </div>
+    </div>
+
+    <!-------------------------- Contact------------------------ -->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tital">Contact <span style="color: #ff004f;"> Me</span></h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> om.thite@mitaoe.ac.in</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9960437344</p>
+                    <div class="social-icons">
+                        <a href="https://whatsapp.com/dl/"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/mr_0m_0t_17?igsh=MTdwbWR3dXpyaHBycQ=="><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/om-thite-38353b287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Resume.pdf" download class="btn btn2">Resume <i class="fa-solid fa-download"></i></a>
+                </div>
+                <div class="contact-right">
+                    <form Name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="Email" placeholder="your emaill " required>
+                        <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="mag"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copewrite"> © Portfolio <i class="fa-solid fa-heart"></i> by Om. | All rights reserved.</div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Mechanical Engineering", "Front End Development ", "Python Development"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+
+        })
+    </script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabcountnds = document.getElementsByClassName("tab-countnd");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcountnd of tabcountnds) {
+                tabcountnd.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxjHp31iOZVN_9g53u-0Nt0_XMMpqFV-G_9mO-EjmuTmdRXq4pX4nLPmebrGWmyPkJbhA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const mag = document.getElementById("mag")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    mag.innerHTML = "Message send successfully "
+                    setTimeout(function () {
+                        mag.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
