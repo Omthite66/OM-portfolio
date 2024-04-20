@@ -39,9 +39,10 @@ nav {
 }
 
 .logo {
+
     width: 110PX;
-    border: #bd4c92 solid 3px;
-    border-radius: 45%;
+    border: #ffffff solid 3px;
+    border-radius: 50%;
 
 }
 
@@ -118,17 +119,22 @@ nav ul li a:hover::after {
 
 .stack-image {
     width: 620px;
-   
+
 
     position: absolute;
     top: 0;
     right: 0;
-   
-    height: auto; /* Maintain aspect ratio */
-    margin-top: 180px; /* Adjust vertical spacing as needed */
-    margin-right: 150px; /* Adjust horizontal spacing as needed */
-    border: 0px solid #000; /* Add border with a thickness of 2px and black color */
-    border-radius: 4%; /* Make the border circular */
+
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-top: 180px;
+    /* Adjust vertical spacing as needed */
+    margin-right: 150px;
+    /* Adjust horizontal spacing as needed */
+    border: 0px solid #000;
+    /* Add border with a thickness of 2px and black color */
+    border-radius: 4%;
+    /* Make the border circular */
 }
 
 
@@ -528,6 +534,9 @@ nav .fa-solid {
 @media only screen and (max-width : 600px) {
     #header {
         background: linear-gradient(#eb50bdb4, rgba(68, 48, 44, 1.868))
+    }
+    .stack-image{
+        display: none;
     }
 
     .header-text {
