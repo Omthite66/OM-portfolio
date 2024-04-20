@@ -19,7 +19,7 @@ body {
 
 #header {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     position: sticky;
     /* background-image: url(Usign-Gradients-Featured-Image.webp); */
     background: linear-gradient(#1a202cb4, rgba(68, 48, 44, 1.868))
@@ -115,6 +115,21 @@ nav ul li a:hover::after {
 
 }
 
+
+.stack-image {
+    width: 620px;
+   
+
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 180px; /* Adjust vertical spacing as needed */
+    margin-right: 150px; /* Adjust horizontal spacing as needed */
+    border: 0px solid #000; /* Add border with a thickness of 2px and black color */
+    border-radius: 4%; /* Make the border circular */
+}
 
 
 /* ---------------------ABout----------------- */
